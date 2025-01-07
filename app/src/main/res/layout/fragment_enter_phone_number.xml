@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:background="@color/white"
+    tools:context=".fragments.EnterPhoneNumberFragment">
+
+    <EditText
+        android:id="@+id/phoneNumberInput"
+        android:layout_width="0dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:inputType="phone"
+        android:text="+"
+        android:hint="Enter phone number" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        style="@style/DigitButton"
+        android:text="Del"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/DigitButton"
+        android:text="1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button2"
+        style="@style/DigitButton"
+        android:text="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button3"
+        style="@style/DigitButton"
+        android:text="3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button4"
+        style="@style/DigitButton"
+        android:text="4"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button5"
+        style="@style/DigitButton"
+        android:text="5"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button6"
+        style="@style/DigitButton"
+        android:text="6"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button7"
+        style="@style/DigitButton"
+        android:text="7"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button8"
+        style="@style/DigitButton"
+        android:text="8"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button9"
+        style="@style/DigitButton"
+        android:text="9"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:id="@+id/button0"
+        style="@style/DigitButton"
+        android:text="0"
+        android:layout_column="1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/buttonCall"
+        style="@style/DigitButton"
+        android:text="Call"
+        android:layout_columnSpan="3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+
+</GridLayout>

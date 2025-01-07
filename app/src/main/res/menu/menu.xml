@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/addContact"
+        android:title="@string/add_new_contact" >
+    </item>
+
+    <item
+        android:id="@+id/loveContacts"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:title="@string/love_contacts"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/history"
+        android:title="@string/history"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/brg_menu"
+        android:icon="@drawable/menu"
+        android:title="@string/menu_brg"
+        app:showAsAction="always" />
+</menu>

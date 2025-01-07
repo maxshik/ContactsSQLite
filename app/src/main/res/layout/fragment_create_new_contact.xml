@@ -1,0 +1,104 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".fragments.CreateNewContactFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#65083D">
+
+        <TextView
+            android:id="@+id/imageTextView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:fontFamily="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="H,1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.08"
+            app:layout_constraintWidth_percent="0.4"
+            android:text="С"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:ems="12"
+            android:hint="@string/enterName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTextView" />
+
+        <EditText
+            android:id="@+id/editTextTelephone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:digits="+1234567890"
+            android:ems="12"
+            android:hint="@string/enterPhone"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/editTextName"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="@+id/editTextName"
+            app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+        <Switch
+            android:id="@+id/switchIsImpotrant"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="20dp"
+            android:text="Важный ли контакт?"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/editTextTelephone"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTelephone" />
+
+        <Button
+            android:id="@+id/btnAddTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/addTag"
+            app:layout_constraintStart_toStartOf="@+id/switchIsImpotrant"
+            app:layout_constraintTop_toBottomOf="@+id/switchIsImpotrant" />
+
+        <LinearLayout
+            android:id="@+id/tagContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="@+id/btnAddTag"
+            app:layout_constraintTop_toBottomOf="@+id/btnAddTag"/>
+
+        <android.widget.Button
+            android:id="@+id/btnAddContact"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#9B84C8"
+            android:text="@string/btnAdd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string-array name="bgColors">
+        <item>#FF5733</item> <!-- оранжево-красный -->
+        <item>#33FF57</item> <!-- зеленый -->
+        <item>#3357FF</item> <!-- синий -->
+        <item>#FF33A1</item> <!-- розовый -->
+        <item>#FFFF33</item> <!-- желтый -->
+        <item>#33FFFF</item> <!-- бирюзовый -->
+        <item>#FF6F33</item> <!-- ярко-оранжевый -->
+        <item>#8E44AD</item> <!-- фиолетовый -->
+        <item>#3498DB</item> <!-- небесно-голубой -->
+        <item>#E74C3C</item> <!-- красный -->
+    </string-array>
+</resources>

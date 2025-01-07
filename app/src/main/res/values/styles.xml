@@ -1,0 +1,8 @@
+<resources>
+    <style name="DigitButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#FF33A1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_margin">2dp</item>  </style>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="contact_list">Contact List</string>
+    <string name="search">Search</string>
+    <string name="add_new_contact">Add</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="contact_information">Mobile Phone Number:</string>
+    <string name="tags">Tags:</string>
+    <string name="tag">Tag</string>
+    <string name="addTag">Add Tag</string>
+    <string name="enterName">Enter Name</string>
+    <string name="enterPhone">Enter Phone</string>
+    <string name="no_app_to_send_msg">No App to Send Messages</string>
+    <string name="error">Error</string>
+    <string name="error_to_much_tags">Cannot Add More Than 10 Tags</string>
+    <string name="btnAdd">Add</string>
+    <string name="love_contacts">Favorite Contacts</string>
+    <string name="history">Call History</string>
+</resources>

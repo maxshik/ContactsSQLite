@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Контакты</string>
+    <string name="contact_list">Список контактов</string>
+    <string name="search">Поиск</string>
+    <string name="add_new_contact">Добавить</string>
+    <string name="call">Вызов</string>
+    <string name="sms">СМС</string>
+    <string name="contact_information">Номер мобильного телефона:</string>
+    <string name="tags">Тэги:</string>
+    <string name="tag">Тэг</string>
+    <string name="addTag">Добавить тэг</string>
+    <string name="enterName">Введите имя</string>
+    <string name="enterPhone">Введите телефон</string>
+    <string name="no_app_to_send_msg">Нет приложения для отправки сообщений</string>
+    <string name="error">Ошибка</string>
+    <string name="error_to_much_tags">Нельзя добавить больше 10 тэгов</string>
+    <string name="btnAdd">Добавить</string>
+    <string name="menu_brg">Меню</string>
+    <string name="love_contacts">Любимые контакты</string>
+    <string name="history">История звонков</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+</resources>
